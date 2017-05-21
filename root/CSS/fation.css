@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+#view{
+    width: 100%;
+    overflow: hidden;
+}
+#wrapper{
+    width: 160%;
+    height: 100%;
+}
+#wrapper div{
+    display: inline-block;
+    height: 100%;
+    float: left;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+#wrapper div :hover{
+    color: white;
+}
+
+
+p{  
+    display: inline-block;
+    width: 35px;
+    height: 100%;
+    font-size: 40px;
+    color: gray;
+    margin-left: 30px;
+    margin-top: 60px;
+    word-wrap: break-word;
+    text-align: center;
+    overflow: hidden;
+    line-height: 45px;
+}
+
+.left{
+    background-color: lightgray;
+}
+.one{
+    background-color:  white; /* url(../image/1summer-breeze.jpg); */
+}
+.two{
+    background-color: lightgray; /* url(../image/2vacation-edit.jpg); */
+}
+.three{
+    background-color:  white; /* url(../image/3blooming.jpg); */
+}
+.four{
+    background-color: lightgray; /* url(../image/4baseball-uniform.jpg); */
+}
+.five{
+    background-color:  white; /* url(../image/5tailoring.jpg); */
+}
+
+.right{
+    background-color: lightgray; 
+}

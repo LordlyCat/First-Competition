@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-style: none;
+}
+#wrapper{
+    position: relative;
+}
+
+#guidance{
+        width: 20px;
+        height: 160px;
+        background-color: gray;
+        position: fixed;
+        top: 40%;
+             
+}
+#guidance a{
+    display: inline-block;
+    width: 100%;
+    height: 20%;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+#main #three, #main #four, #main #five{
+    cursor: pointer;
+}
+#main img{
+    width: 64px;
+    display: inline-block;
+    margin-top: 22%;
+    margin-left:47.85%;
+    opacity: 0.9;
+}
+
+.one, .two, .three, .four, .five, .six{
+    display: inline-block;
+    width: 1px;
+    background-color: white;
+    position: absolute;
+}
+
+.one{
+    left: 31%;
+    transition: left 3s;
+}
+
+.two{
+    left: 38%;
+    transition: left 3s;
+}
+.three{
+    left: 45%;
+    transition: left 3s;
+}
+.four{
+    left: 52%;
+    transition: left 3s;
+}
+.five{
+    left: 59%;
+    transition: left 3s;
+}
+.six{
+    left: 66%;
+    transition: left 3s;
+}
+.transversae_1,.transversae_2,.transversae_3{
+    width: 0;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+}
+.transversae_1{
+    top: 2600px;
+    transition: width 3s;
+}
+.transversae_2{
+    top: 2800px;
+    transition: width 3s;
+}
+.transversae_3{
+    top: 3000px;
+    transition: width 3s;
+}
+
+.box_1,.box_2,.box_3,.box_4,.box_5{
+    width: 100%;
+    height: 800px;
+}
+
+.box_1{
+    background-image: url(../image/young.jpg);
+    background-size: 100% 100%;
+}
+.box_2{
+    background-image: url(../image/youth.jpg);
+    background-size: 100% 100%;
+}
+.box_3{
+    background-image: url(../image/food.jpg);
+    background-size: 100% 100%;
+}
+.box_4{
+    background-image: url(../image/ifashion.jpg);
+    background-size: 100% 100%;
+}
+.box_5{
+    background-image: url(../image/rest.jpg);
+    background-size: 100% 100%;
+}
